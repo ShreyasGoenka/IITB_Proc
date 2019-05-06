@@ -15,7 +15,7 @@ LS.vhd - This is a simple left shifter which shifts by seven bits.
 
 memory_asyncread_syncwrite.vhd - This file contains the implementation for the memory used by the process.
 
-ir.vhd - This is the Instruction Register. This store the instruction currently being executed, it loads it from memory using address in pc.
+ir.vhd - This is the Instruction Register. This stores the instruction currently being executed, it loads it from memory using address in pc.
 
 pc.vhd - this is the instruction pointer which points towards the memory location where the instruction to be executed is located.
 
