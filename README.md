@@ -19,6 +19,8 @@ ir.vhd - This is the Instruction Register. This store the instruction currently 
 
 pc.vhd - this is the instruction pointer which points towards the memory location where the instruction to be executed is located.
 
+se.vhd - this contains two sign extenders, one from 6 to 16 bits and another from 9 to 16 bits.
+
 state.vhd - this contains the state transtion logic, which (for the most part, had to make changes for practical reasons) corresponds to state transition specified in design_document.pdf
 
 tempRegister.vhd - this contains implementations for temp registers T1, T2 and T3 which are constantly used and required by the processer to execute the instructions.
